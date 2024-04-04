@@ -67,3 +67,16 @@ Su uso depende si se quiere proporcionar informacion de otras pagianas, no es ob
 <td>&nbsp;</td>
 </tr>
 </table>
+
+todas las etiquetas se usan en conjunto sobre el body
+Este bloque de codigo empieza con la etiqueta "table" que inicializa una tabla. Su uso es obligatorio para utilizar tablas  tiene los atributos:
+ -width especifica el ancho de la tabla en pixeles 
+ -summary nos proporciona una descripcion breve y concisa(no se aconseja su uso)
+En la segunda linea encontramos la etiqueta caption, nos otorga el titulo de la tabla su uso no es especificamente obligatorio, con el atributo:
+ -align que no ubica el titulo en la parte superior 
+La etiqueta tr informa el comienzo de la fila, su uso es de caracter obligatorio en las tabla
+La etiqueta th indica la celda, suele ser obligatorio usar celdas en las tablas, sus atributos:
+ -scope="col" nos indica que las celda son de encabezado, son las celdas de la primer fila son importante a nivel estructural de la tabla
+ -scope="row" nos indica la estructura de la primer celda de la fila, se usa normalmente en las filas consecutivas a la primera
+La etiqueta td indica una celda de dato, que va a contener un dato, ya sea calculado o proporcionado por otro medio 
+El contenido de las celdas "&nbsp" nos permite generar celdas en blanco, es decir que por mas que no tengan informacion las precente en pantalla 
