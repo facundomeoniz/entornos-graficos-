@@ -1,0 +1,34 @@
+    Ejercicio 2
+
+Analizar el siguiente código señalando declaraciones y aplicaciones de reglas, y su efecto
+
+p#normal {
+    font-family: arial,helvetica;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+En este segmento de codigo se le agrega estilo a un parrafo con el id nomal, dicho estilo modifica la tipografia (arial y helvetica, en caso de no funcionar el arial).
+El tamaño y que las palabras estan en negrita    
+
+*#destacado {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+
+En este segmento de codigo se le agrega estilo a todos los elementos por el asterisco. agrega BORDE solido color azul y con un espesor de 2 px
+
+#distinto {
+    background-color: #9EC7EB;
+    color: red;
+}
+
+Este codigo le da estilo a un elemento que tiene el id "distinto". Especificamente le agrega al fondo del contenido el color en hexadecimal #9EC7EB (celeste) y color red al contenido
+
+<p id="normal">Este es un párrafo</p>
+<p id="destacado">Este es otro párrafo</p>
+<table id="destacado"><tr><td>Esta es una tabla</td></tr></table>
+<p id="distinto">Este es el último párrafo</p>
+
+Este es el codigo html con sus respectivos id, sin embargo, los id no tienen que ser usados en mas de un elemento 
