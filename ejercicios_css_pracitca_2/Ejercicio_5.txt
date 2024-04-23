@@ -1,0 +1,67 @@
+    Ejercicio 5
+
+En cada caso, declarar una regla CSS que produzca el siguiente efecto:
+
+1. Los textos enfatizados dentro de cualquier título deben ser rojos.
+    .resaltar{
+        color: red;
+    }
+    <h1> hola <span class="resaltar">mundo</span></h1>
+
+2. Cualquier elemento que tenga asignado el atributo "href" y que esté dentro de cualquier párrafo que a
+su vez esté dentro de un bloque debe ser color negro.
+
+    p > span > a {
+        color: #000000;
+    }
+
+    <p>Esto es un link dentro de un bloque que esta dentro de un parrafo <span> <a href="https:// www.google.com">link a google</a></span></p>
+
+3. El texto de las listas no ordenadas que estén dentro del bloque identificado como “ultimo” debe ser amarillo pero si es un enlace a otra página debe ser azul.
+
+    .ultimo > ul > li {
+       color: #fe0;
+    }   
+
+    .ultimo > ul > li > a [href] {
+        color:#00f
+    }
+
+4. Los elementos identificados como “importante” dentro de cualquier bloque deben ser verdes, pero si están dentro de un título deben ser rojos.
+
+    .bloque > h1.importante{
+        color:#000000;
+    }  
+
+    .bloque .importante {
+        color:#080;
+    }
+
+
+5. Todos los elementos h1 que especifique el atributo title, cualquiera que sea su valor, deben ser azules.
+
+    h1[title] {
+        color:#00f;
+    }
+
+6. El color de los enlaces en las listas ordenadas debe ser azul para los enlaces aún no visitados, y violeta
+para los ya visitados y, además, no deben aparecer subrayados.
+
+    ol > li > a[href]{
+        text-decoration: none;
+        color:#00f;
+    }
+
+    ol > li > a[href]:visited{
+        color:#ee82ee;
+    }
+
+
+
+
+
+
+
+
+
+
