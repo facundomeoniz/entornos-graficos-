@@ -1,0 +1,27 @@
+Ejercicio 4
+
+Dadas las siguientes declaraciones:
+
+* {color:green; }
+a:link {color:gray }
+a:visited{color:blue }
+a:hover {color:fuchsia }
+a:active {color:red }
+
+p {
+    font-family: arial,helvetica;
+    font-size: 10px;
+    color:black;
+}
+
+.contenido{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+-En el primer codigo el unico elemento que se ve afectado por la clase contenido es el parrafo, en diferencia al segundo, que se ven afectados 
+todos los elementos que esten dentro del body 
+-En el primer codigo el parrafo tambien se ve afectado por el estilo aplicado sobre p, en el segundo codigo tambien esta afectado por el estilo de palabras
+-En ambos codigos los links funcionan de misma manera respetando las normas definidas en el style de a.
+
+
