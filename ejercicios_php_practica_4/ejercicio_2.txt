@@ -1,0 +1,8 @@
+Ejercicio 2:
+Indicar si los siguientes codigos son equivalentes.
+
+a) Efectivamente los 3 codigos presentan la misma sucesion de numeros 
+
+b) Efectivamente los 4 codigos presentan la misma sucesion de numeros 
+
+c) Ambos codigos generan lo mismo, pero ambos les falta o terminar en else para el caso de if  o tener un default en el caso del case
