@@ -1,0 +1,30 @@
+Ejercicio 1:
+En el siguiente codigo identificar:
+• las variables y su tipo   --> $a (buleano)
+                            --> $b (str)
+                            --> $c (str)
+                            --> $d (int)
+                            --> $f (float)
+                            --> $g (float)
+                            --> $i (int)
+
+• los operadores--> * 
+                --> $variable++
+                --> ++$variable
+                --> =
+                --> $variable +=
+
+
+• las funciones y sus parametros    -->function doble (funcion)
+                                    -->($i)  (parametro)
+
+• las estructuras de control    --> $d = $a ? ++$d : $d*3; (condicional de terna)
+                                --> if; (condicional simple)
+                                
+
+• cual es la salida por pantalla    --> echo gettype($a);
+                                    --> echo gettype($b);
+                                    --> echo gettype($c);
+                                    --> echo gettype($d); 
+                                    --> echo "Cadena: $a";
+                                    --> echo $a, $b, $c, $d, $f , $g;
