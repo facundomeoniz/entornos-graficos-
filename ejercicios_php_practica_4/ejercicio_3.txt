@@ -1,0 +1,8 @@
+Ejercicio 3:
+Explicar para qué se utiliza el siguiente código:
+
+a) Este codigo genera una tabla con 5 filas y 2 columnas con espacios vacios 
+
+b) Este cogo nos permite rellanar un formulario y enviarlo, al enviarlo lo recibimos bajo el metodo post y lo guardamos en una variable 
+para comprobar si se cumple la condision simple si es mayor de edad o no, en el caso de serlo emite un mensaje y en caso de no serlo emite otro
+
