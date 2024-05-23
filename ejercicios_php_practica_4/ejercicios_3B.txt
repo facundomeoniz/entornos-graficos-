@@ -1,0 +1,8 @@
+Ejercicio 3:
+En cada caso, indicar las salidas correspondientes:
+
+a)Nos mostrara la ora, minutos y fecha en el momento que cargas la pagina, ya que guarda datos de la fecha con la funcion date.
+
+b)Nos retorna en pantalla la suma de 5 + 6 es decir 11, ya que hace uso de la funcion sumar que la define el programador y le pasa 
+como parametros los numeros que decea sumar 
+
