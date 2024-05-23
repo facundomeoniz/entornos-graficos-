@@ -1,0 +1,5 @@
+Ejercicio 4: 
+Indicar las salidas que produce el siguiente código. Justificar.
+
+En una primer instancia muestra un warning variables no definidas, y luego (al incluir el archivo) muestra el correspondiente valor
+de cada varia variable "blanco" y "clavel"
