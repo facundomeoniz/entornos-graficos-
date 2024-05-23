@@ -1,0 +1,4 @@
+Indicar si los siguientes códigos son equivalentes.
+
+Efectivamente los codigos son equivalentes y ambos generan la misma array, lo que cambia es el como se definen los identificadores 
+de cada elemento perteneciente al array
