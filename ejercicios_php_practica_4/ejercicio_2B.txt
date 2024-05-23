@@ -1,0 +1,8 @@
+Ejercicio 2:
+En cada caso, indicar las salidas correspondientes:
+
+a)El primer echo muestra la "bar" y el segundo muestra "true".
+
+b)Es una matriz de matriz, el primer echo muestra 5, el segundo muestra 9 y el tercero muestra 42.
+
+c)No muestra nada, destruye la variable array
